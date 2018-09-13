@@ -1,0 +1,11 @@
+/target/
+.project
+.classpath
+.idea/
+*.iml
+.settings/
+logs/
+*.class
+*.iml
+/modules/*/target/
+/modules/iwm-lh/src/main/resources/templates/wmstorage/wmordertype-info.ftl
