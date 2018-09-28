@@ -14,6 +14,7 @@ public class HelloController {
 
     @GetMapping(value = "/hi")
     public String hi(@RequestParam(value = "name",defaultValue = "wangjie") String name) {
+        System.out.println("=====ribbon====");
         return helloService.hiService(name);
     }
 }

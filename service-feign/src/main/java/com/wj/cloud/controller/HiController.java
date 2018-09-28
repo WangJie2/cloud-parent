@@ -17,6 +17,7 @@ public class HiController {
 
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam(value = "name",defaultValue = "binbin") String name) {
+        System.out.println("=====feign====");
         return serviceHi.sayHiFromClientOne( name );
     }
 }
